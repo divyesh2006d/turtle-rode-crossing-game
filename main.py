@@ -27,6 +27,7 @@ while game_is_on:
     for car in m.car:
         if car.distance(p) < 20:
             game_is_on = False
+            s.game_over()
 
 
     #detect finish line
