@@ -29,4 +29,9 @@ while game_is_on:
             game_is_on = False
 
 
+    #detect finish line
+    if p.is_finishline():
+        p.start()
+        m.level_up()
+
 screen.exitonclick()
